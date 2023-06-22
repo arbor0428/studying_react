@@ -6,12 +6,14 @@ import reportWebVitals from './reportWebVitals';
 //import AppXY from './AppXY';
 //import AppMentors from './AppMentors';
 //import AppMentorsImmer from './AppMentorsImmer';
-import AppForm from './AppForm';
+//import AppForm from './AppForm';
+import TailwindComponent from './TailwindComponent';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AppForm />
+    <TailwindComponent />
   </React.StrictMode>
 );
 
